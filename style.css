@@ -4,14 +4,23 @@ body {
     background-color: #f7e8a6;
 }
 h1 {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-weight: 700;
+   font-size: 2em;
+   font-weight: 700;
+   margin-top: 26px;
+   margin-bottom: 20px;
 }
 h1, p {
     text-align: center;
-    font-family: "Times-700";
+    font-family: "Times";
 }
-.col-md-auto {
-    font-family: "Times-700";  
+p {
+    line-height: 120%;
+    margin-bottom: 12px;
+}
+.col-auto a {
+    font-family: "Times";  
+    color: #008001;
+}
+#image {
+    border-radius: 10px !important;
 }
